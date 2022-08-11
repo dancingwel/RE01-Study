@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img {
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    line-height: 70px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin: 20px 0px 0px 0px;
+}
+
+hr {
+    height: 5px;
+    border: none;
+    background: red;
+    margin: 0px 0px 0px 0px;
+}
+
+#banner {
+    background: gold;
+    margin: 0px 0px 0px 0px;
+    height: 140px;
+}
+
+#img-div {
+    margin: 0px 0px 0px 0px;
+}
+
+ul {
+    text-align: left;
+    line-height: 1.6;
+    background-color: gold;
+    margin: 0px 0px 0px 0px;
+}
+
+figcaption {
+    font-size: 50px;
+}

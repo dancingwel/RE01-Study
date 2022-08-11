@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #eee;
+}
+
+
+/* * {
+    border: 1px solid black;
+} */
+
+.flex {
+    display: flex;
+}
+
+.baise {
+    background-color: white;
+}
+
+.heise {
+    background-color: black;
+}
+
+.yinying {
+    box-shadow: 0px 2px 2px -1px #67b3dd;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.mg8 {
+    margin: 8px;
+}
+
+.mgr8 {
+    margin-right: 8px;
+}
+
+.mgt8 {
+    margin-top: 8px;
+}
+
+.daohang {
+    padding: 10px 20px;
+    border-bottom: 1px solid grey;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .cebian {
+        display: none;
+    }
+    .neirong {
+        flex-direction: column;
+    }
+    .shuju {
+        flex-direction: column;
+    }
+}
+
+img {
+    display: block;
+    margin: auto;
+}

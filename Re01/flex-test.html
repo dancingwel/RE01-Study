@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./flex-test.css">
+    <title>flex布局测试页</title>
+</head>
+
+<body class="flex">
+    <!-- 侧边栏 -->
+    <div style="width: 200px;" class="cebian baise yinying">
+        <!-- 头像栏 -->
+        <div style="padding: 10px; align-items:center;
+                justify-content:center; border: bottom 1px
+                #999;" class="flex">
+            <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.34DVjwoWFizHSLrhNY-8-AHaHa?w=174&h=180&c=7&r=0&o=5&pid=1.7" width="150px" height="auto" alt="头像">
+
+        </div>
+        <div style="align-items:center;
+                justify-content:center;" class="flex"><strong>龙骑士</strong></div>
+        <!-- 导航栏 -->
+        <div style="flex-direction:column;" class="flex">
+            <div style="background-color:yellow" class="daohang"><strong>英雄介绍</strong></div>
+            <div style="background-color:yellow" class="daohang"><strong>属性成长</strong></div>
+            <div style="background-color:yellow" class="daohang"><strong>技能说明</strong></div>
+            <div style="background-color:yellow" class="daohang"><strong>出装路线</strong></div>
+            <div style="background-color:yellow" class="daohang"><strong>其他说明</strong></div>
+        </div>
+    </div>
+    <!-- 主区域 -->
+    <div class="flex1 flex column">
+        <!-- 头部栏 -->
+        <div style="height: 60px;text-align:center;font-size:
+                250%;background-color: rgb(196, 54, 54);" class="baise yinying">欢迎来到刀塔世界！</div>
+        <!-- 内容区 -->
+        <div style="overflow:auto" class="neirong flex1 flex">
+            <!-- 左区 -->
+            <div style="flex:3;" class="flex column mg8">
+                <!-- 数据区 -->
+                <div class="flex">
+                    <!-- 数据块 -->
+                    <div style="height: 100px;justify-content:center" class="shuju flex1 heise
+                            yinying
+                            mgr8">
+                        <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.bsxaK_E-HRbWVBMX5n9ysAAAAA?w=174&h=180&c=7&r=0&o=5&pid=1.7" height="100px" alt="">
+                    </div>
+                    <div style="height: 100px;" class="shuju flex1 heise
+                            yinying
+                            mgr8">
+                        <img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.lOSrIeoyNyFnVZvOzxE8vQAAAA?w=193&h=193&c=7&r=0&o=5&pid=1.7" height="100px" alt="">
+                    </div>
+                    <div style="height: 100px;" class="shuju flex1 heise
+                            yinying
+                            mgr8">
+                        <img src="https://tse2-mm.cn.bing.net/th/id/OIP-C.g1U1ky8QpBhI7YTaA7h2_QAAAA?w=193&h=193&c=7&r=0&o=5&pid=1.7" height="100px" alt="">
+                    </div>
+                    <div style="height: 100px;" class="shuju flex1 heise
+                            yinying">
+                        <img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.Dsykxa9h69f0uJNOk8dMUQAAAA?w=193&h=193&c=7&r=0&o=5&pid=1.7" height="100px" alt="">
+                    </div>
+                </div>
+                <!-- 列表区 -->
+                <div class="flex column">
+                    <!-- 列表项 -->
+                    <div style="height: 160px;" class="baise yinying mgt8"></div>
+                    <div style="height: 160px;" class="baise yinying mgt8"></div>
+                    <div style="height: 160px;" class="baise yinying mgt8"></div>
+                </div>
+            </div>
+            <!-- 右区 -->
+            <div style="flex:1;" class="flex column mgr8 mgt8">
+                <!-- 提示区 -->
+                <div style="height: 150px;" class="baise yinying"></div>
+                <!-- 消息区 -->
+                <div style="height: 300px;" class="baise yinying mgt8"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
